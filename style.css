@@ -7,8 +7,9 @@ h1 {
 }
 
 body {
-    max-width: 95%;
-    font-family: "roboto";
+    
+    font-family: Roboto, sans-serif;
+    height: 100vh;
 }
 .header, .footer {
     background-color: #1F2937;
@@ -28,7 +29,7 @@ body {
     flex-direction: row;
     flex:1;
     justify-content: space-between;
-    
+    align-items: center;
 
 }
 ul {
@@ -43,7 +44,7 @@ ul {
     align-items: center;
     margin:20px;
     padding:20px;
-    gap: 10px;
+    gap: 100px;
 }
 
 .quote {
@@ -62,17 +63,20 @@ ul {
 
 .info {
     text-align: center;
-    max-width: 200px;
+    width: 500px;
 }
 button {
     background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    width:fit-content;
 }
 
 .prefooter {
     background-color: #3882F6;
 }
 
-p, .text {
+p, .text, .su {
     font-size: 18px;
 }
 .maintxt {
@@ -85,4 +89,54 @@ p, .text {
 .midtxt {
     text-align: center;
     font-size: 36px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+.imground {
+    border-radius: 25px;
+    border: 5px solid #3882F6;
+    width:40%;
+}
+
+.qt {
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+}
+.qter {
+    text-align: right;
+    font-size:18px;
+}
+
+.prefooter {
+    border-radius: 15px;
+    color: white;
+    margin:8px;
+    padding: 40px;
+    width:700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rtext {
+    display: flex;
+    gap:150px;
+    
+}
+
+.c2a {
+    display:flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.su {
+    margin-top: 0;
 }
