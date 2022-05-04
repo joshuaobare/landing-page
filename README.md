@@ -1,1 +1,1 @@
-# landing-page
+This is but a simple landing page based on a template by The Odin Project.
