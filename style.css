@@ -9,7 +9,7 @@ h1 {
 
 
 body {
-    
+    margin:0px;
     font-family: Roboto, sans-serif;
     height: 100vh;
 }
@@ -74,7 +74,7 @@ ul {
 
 .info {
     text-align: center;
-    width: 500px;
+    width: 200px;
 }
 button {
     background-color: #3882F6;
@@ -115,28 +115,31 @@ p, .text, .su {
     font-size: 36px;
     font-weight: 100;
     text-align: center;
+    margin-top: 100px;
 }
 .qter {
     text-align: right;
     font-size:18px;
+    margin-bottom: 75px;
 }
 
 .prefooter {
     border-radius: 15px;
     background-color: #3882F6;
     color: white;
-    margin:8px;
+    margin:100px;
     padding: 40px;
     width:700px;
     justify-content: space-between;
     margin-left: 600px;
+    margin-top:100px;
 
 }
 
 .rtext {
     display: flex;
     gap:150px;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
